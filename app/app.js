@@ -1,5 +1,5 @@
 Ext.Loader.setPath({
-    'TestMVC': 'samples/basic/app'
+    'TestMVC': 'app'
 });
 
 Ext.application({

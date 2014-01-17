@@ -3,15 +3,15 @@
     "indexHtmlPath": "index.html",
     "url": null,
     "js": [{
-        "path": "sencha/sencha-touch-all-debug.js",
+        "path": "resources/sencha-touch-all-debug.js",
         "x-bootstrap": true
     }, {
-        "path": "samples/basic/app.js",
+        "path": "app/app.js",
         "bundle": true,
         "update": "delta"
     }],
     "css": [{
-        "path": "sencha/sencha-touch.css",
+        "path": "resources/sencha-touch.css",
         "platform": ["desktop"],
         "update": "delta"
     }],
