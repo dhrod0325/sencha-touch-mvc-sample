@@ -1,0 +1,42 @@
+{
+    "name": "List",
+    "indexHtmlPath": "index.html",
+    "url": null,
+    "js": [{
+        "path": "sencha/sencha-touch-all-debug.js",
+        "x-bootstrap": true
+    }, {
+        "path": "samples/basic/app.js",
+        "bundle": true,
+        "update": "delta"
+    }],
+    "css": [{
+        "path": "sencha/sencha-touch.css",
+        "platform": ["desktop"],
+        "update": "delta"
+    }],
+    "appCache": {
+        "cache": [
+            "index.html"
+        ],
+        "network": [
+            "*"
+        ],
+        "fallback": []
+    },
+
+    "extras": [],
+
+    "ignore": [],
+
+    "archivePath": "archive",
+
+    "buildOptions": {
+        "product": "touch",
+        "minVersion": 3,
+        "debug": false,
+        "logger": "no"
+    },
+    "requires": [],
+    "id": "3a867610-670a-11e1-a90e-4318029d18bb"
+}
