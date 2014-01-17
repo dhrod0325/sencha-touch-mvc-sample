@@ -1,6 +1,6 @@
 Ext.define('TestMVC.view.man.ManList', {
 	extend : 'Ext.List',
-	xtype : 'manlist',
+	xtype : 'manList',
 	config : {
 		title : '테스트 목록',
 		onItemDisclosure : true,

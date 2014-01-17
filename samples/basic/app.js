@@ -9,7 +9,7 @@ Ext.application({
     models : ['TestMVC.model.Man'],
     stores : ['TestMVC.store.Mans'],
     views : ['TestMVC.view.Main'],
-    launch : function() {
+    launch : function() { 
         Ext.Viewport.add(Ext.create('TestMVC.view.Main'));
     }
 });

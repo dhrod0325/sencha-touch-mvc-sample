@@ -1,7 +1,7 @@
 Ext.define('TestMVC.view.Man', {
     extend : 'Ext.NavigationView',
     xtype : 'man',
-    requires : ['TestMVC.view.man.ManList'],
+    requires : ['TestMVC.view.man.ManList','TestMVC.view.man.ManDetail'],
     config : {
         title : 'Man',
         iconCls : 'user',
@@ -23,7 +23,7 @@ Ext.define('TestMVC.view.Man', {
             }]
         },
         items : [{
-            xtype : 'manlist'
+            xtype : 'manList'
         }]
     }
 });
